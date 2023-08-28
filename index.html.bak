@@ -21,6 +21,7 @@
 		</div>
 		<div>
 			<button id="start" type="button" class="btn btn-primary btn-lg px-4 gap-3">Start</button>
+			<!-- <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Start</button> -->
 		</div>
 	</div>
 		
