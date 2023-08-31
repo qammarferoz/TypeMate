@@ -19,6 +19,7 @@ let startTime = Date.now();
 const quoteElement = document.getElementById('quote');
 const messageElement = document.getElementById('message')
 const typedValueElement = document.getElementById('typed-value');
+document.getElementById('typed-value').value = '';
 
 document.getElementById('start').addEventListener('click', function () {
 	// get a quote
@@ -77,9 +78,10 @@ typedValueElement.addEventListener('input', (e) => {
 	} else if (currentWord.startsWith(typedValue)) {
 		// currently correct
 		// highlight the next word
-		typedValueElement.className = '';
+		typedValueElement.className = 'form-control';
+		typedValueElement.style.backgroundColor = 'white';
 	} else {
 		// error state
-		typedValueElement.className = 'error';
+		typedValueElement.style.backgroundColor = 'red';
 	}
 });

@@ -16,12 +16,13 @@
 
 		<p id="quote"></p>
 		<p id="message"></p>
-		<div>
-			<input type="text" aria-label="current word" id="typed-value" />
+		<div class="class="col-md-10 mx-auto col-lg-5"">
+			<div class="form-floating mb-3">
+				<input type="text" aria-label="current word" id="typed-value" class="form-control" />
+			</div>
 		</div>
 		<div>
 			<button id="start" type="button" class="btn btn-primary btn-lg px-4 gap-3">Start</button>
-			<!-- <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Start</button> -->
 		</div>
 	</div>
 		
