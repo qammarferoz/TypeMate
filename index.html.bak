@@ -16,7 +16,7 @@
 
 		<p id="quote"></p>
 		<p id="message"></p>
-		<div class="class="col-md-10 mx-auto col-lg-5"">
+		<div class="col-md-10 mx-auto col-lg-5">
 			<div class="form-floating mb-3">
 				<input type="text" aria-label="current word" id="typed-value" class="form-control" />
 			</div>
