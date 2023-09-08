@@ -11,6 +11,7 @@
 	<div class="px-4 py-3 my-5 text-center">
 		<h1 center>Type-Mate About Us</h1>
 		<div class="col-md-10 mx-auto col-lg-5">
+<<<<<<< Updated upstream
 			<div class="form-floating mb-3">
 				<input type="text" aria-label="current word" id="typed-value" class="form-control" />
 			</div>
@@ -18,6 +19,11 @@
 		<div>
 			<button id="start" type="button" class="btn btn-primary btn-lg px-4 gap-3">Start</button>
 		</div>
+=======
+			
+		</div>
+		
+>>>>>>> Stashed changes
 	</div>
 	</body>
 </html>
