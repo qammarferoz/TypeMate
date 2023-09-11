@@ -33,12 +33,6 @@
     .close:hover {
         color: #0056b3; /* Change the color on hover if desired */
     }
-	
-	.modal-header {
-        background-color: #007bff; /* Change the background color to your preferred color */
-        color: #fff; /* Change the text color to contrast with the background */
-        border-bottom: none; /* Remove the border at the bottom of the header */
-    }
 
 
 
