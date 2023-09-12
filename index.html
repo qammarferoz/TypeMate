@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TypeMate - Typing Master</title>
-    <link rel="stylesheet" href="./index.css">
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 	
 	<!-- Include Bootstrap and jQuery libraries -->
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="./index.css">
 
 </head>
 <body>
@@ -37,14 +39,13 @@
 <div class="container mt-5">
     <div class="row justify-content-center">
         <div class="col-md-8 text-center">
-            <h1>TypeMate - Typing Master</h1>
-            <p><strong>Practice Your Typing</strong></p>
-            <form>
-                <p id="quote" class="mt-3"></p>
-                <p id="message" class="text-danger mt-3"></p>
+            <p id="quote" class="mt-3"></p>
+            <p id="message" class="text-danger mt-3"></p>
+			<form>
                 <div class="form-group">
-                    <label for="typed-value">Click start to have a quote displayed. Type the quote as fast as you can!</label>
-                    <textarea rows="4" id="typed-value" class="form-control mt-3"></textarea>
+                    <label for="typed-value"></label>
+                    <textarea rows="4" id="typed-value" class="form-control mt-3">Click Start button to have a quote displayed. Type the quote as fast as you can!</textarea>
+					<div class="simple-keyboard"></div>
                 </div>
                 <div class="form-group">
                     <button id="reset" type="reset" class="btn btn-custom btn-lg px-4 mr-3"><i class="bi bi-arrow-counterclockwise"></i> Reset</button>
